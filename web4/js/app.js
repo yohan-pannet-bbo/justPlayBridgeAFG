@@ -495,7 +495,7 @@ function BBO_ResizeDealComponent(delay) {
 
 function BBO_SetLayout(layout, cb) {
     
-    var show_ads = true;
+    var show_ads = false;
 
     if (gup('p') == 'n') {
         show_ads = false;

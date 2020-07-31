@@ -5,6 +5,18 @@ var adDisplayContainer;
 var adsLoader;
 var adsManager;
 
+var tagUrl = 'https://googleads.g.doubleclick.net/pagead/ads?' + 
+    'ad_type=video&' + 
+    'client=ca-games-pub-4968145218643279&' + 
+    'videoad_start_delay=0&' + 
+    'description_url=http%3A%2F%2Fwww.bridgebase.com&' + 
+    'max_ad_duration=20000&' + 
+    'adtest=on';
+    
+tagUrl  = 'https://pubads.g.doubleclick.net/gampad/ads?' +
+      'sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&' +
+      'impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&' +
+      'cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=';
 
 // On window load, attach an event to the play button click
 // that triggers playback on the video element
@@ -38,10 +50,7 @@ function initializeIMA() {
   });
 
   var adsRequest = new google.ima.AdsRequest();
-  adsRequest.adTagUrl = 'https://pubads.g.doubleclick.net/gampad/ads?' +
-      'sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&' +
-      'impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&' +
-      'cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=';
+  adsRequest.adTagUrl = tagUrl;
 
   // Specify the linear and nonlinear slot sizes. This helps the SDK to
   // select the correct creative if multiple are returned.
@@ -87,6 +96,7 @@ function loadAds(event) {
   } catch (adError) {
     // Play the video without ads, if an error occurs
     console.log("AdsManager could not be started");
+    console.log(adError);
     videoElement.play();
   }
 }
@@ -116,6 +126,7 @@ window.playVideoAd = function () {
     } catch (adError) {
         // Play the video without ads, if an error occurs
         console.log("AdsManager could not be started");
+        console.log(adError);
     }
 }
 
