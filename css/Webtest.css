@@ -1,0 +1,579 @@
+
+.splashPanel {
+	
+  background-color: #E1E1BA;
+  background: -webkit-linear-gradient(#E1E1BA, #B1B18A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E1E1BA, #B1B18A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E1E1BA, #B1B18A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E1E1BA, #B1B18A); /* Standard syntax */	
+  border: 3px solid black;
+}
+
+.dialogBox {
+	
+  border: 1px solid black; 	
+  background-color: #CCCC9A;  
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.dialogBoxTitleBar {
+	
+  border-bottom: 1px solid black;
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #CFCFCF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #CFCFCF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #CFCFCF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #CFCFCF); /* Standard syntax */	
+}
+
+.dealViewer {
+	
+  background-color: #106610;
+  background: -webkit-linear-gradient(#106610, #003600); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#164610, #003600); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#106610,#003600); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#106610, #003600); /* Standard syntax */	
+}
+
+.resultsPanel {
+	
+  background-color: #000000;
+}
+
+.fdPanel {
+	
+  border: 1px solid black; 	
+  background-color: #CCCC9A;
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.handTypePanel {
+	
+  border: 1px solid black; 	
+  background-color: #CCCC9A;
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.resultList {
+	
+  background-color: #000000;
+}
+
+.resultListItem {
+	
+  background-color: #FFFFFF;	
+}
+
+.resultListItemSelected {
+	
+  background-color: #FFCE00;	
+}
+
+.resultListHeader {
+	
+  border-bottom: 1px solid black;
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #CFCFCF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #CFCFCF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #CFCFCF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #CFCFCF); /* Standard syntax */	
+}
+
+.dvBigMode {
+	
+  background-color: #106610;
+}
+
+.announcementPanelBigMode {
+
+  background-color: #CCCC9A;  
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.buttonBar {
+
+  background-color: #CCCC9A; 
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.buttonBarButton {
+	
+  background-color: #E0E0E0;
+  color: #000000;
+  padding-left: 3px;
+  padding-right: 3px;
+  overflow: hidden;
+}
+
+.widgetPanel {
+
+  background-color: #000000;  
+  border-left: 1px solid black; 	
+}
+
+.handDiagramPanel {
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #DFDFDF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #DFDFDF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #DFDFDF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #DFDFDF); /* Standard syntax */	
+  border: 1px solid black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.handDiagramCardLabel {
+	
+  border: none; 	
+  border: 1px solid transparent; 	
+  background-color: transparent;
+}
+
+.handDiagramCurrentTrickCard {
+	
+  border: 1px solid black; 	
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #DFDFDF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #DFDFDF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #DFDFDF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #DFDFDF); /* Standard syntax */	
+}
+
+.handDiagramCardLabelSelected {
+	
+  border: 1px solid black; 	
+  background-color: #FFCE00;
+  background: -webkit-linear-gradient(#FFCE00, #DFAE00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFCE00, #DFAE00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFCE00, #DFAE00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFCE00, #DFAE00); /* Standard syntax */
+}
+
+.legalCardsStrip {
+	
+  background-color: #FFCE00;
+}
+
+.auctionBox {
+  background-color: #99CCCC;
+  background: -webkit-linear-gradient(#99CCCC, #79ACAC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#99CCCC, #79ACAC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#99CCCC, #79ACAC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#99CCCC, #79ACAC); /* Standard syntax */
+  border: 1px solid black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.auctionNameLabelVul {
+	  
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #CB0000;
+  background: -webkit-linear-gradient(#CB0000, #AB0000); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CB0000, #AB0000); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CB0000, #AB0000); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CB0000, #AB0000); /* Standard syntax */
+  border-bottom: 1px solid black;	
+}
+
+.auctionNameLabelNotVul {
+	
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #DFDFDF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #DFDFDF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #DFDFDF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #DFDFDF); /* Standard syntax */
+  border-bottom: 1px solid black;	
+}
+
+.auctionCell {
+	
+  color: #000000;
+  text-align: center;
+  float: left;
+}
+
+.auctionCellExplain {
+	
+  color: #000000;
+  text-align: center;
+  float: left;
+  background-color: #CCCC9A;
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.auctionCellAlert {
+	
+  color: #000000;
+  text-align: center;
+  float: left;
+  border: 1px solid #CB0000;
+}
+
+.auctionCellAlertExplain {
+	
+  color: #000000;
+  text-align: center;
+  float: left;
+  background-color: #CCCC9A;
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+  border: 1px solid #CB0000;
+}
+
+.auctionCellExplanation {
+	
+  color: #000000;
+  text-align: center;
+  float: left;
+  
+  background-color: #DDDDDD;
+  background: -webkit-linear-gradient(#DDDDDD, #CDCDCD); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#DDDDDD, #CDCDCD); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#DDDDDD, #CDCDCD); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#DDDDDD, #CDCDCD); /* Standard syntax */ 
+}
+
+.auctionCellAlertExplanation {
+	
+  color: #000000;
+  text-align: center;
+  float: left;
+   background-color: #DDDDDD;
+  background: -webkit-linear-gradient(#DDDDDD, #CDCDCD); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#DDDDDD, #CDCDCD); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#DDDDDD, #CDCDCD); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#DDDDDD, #CDCDCD); /* Standard syntax */
+   border: 1px solid #CB0000;
+}
+
+
+.auctionCellExplaining {
+	
+  color: #000000;
+  text-align: center;
+  float: left;
+  background-color: #FFCE00;
+  background: -webkit-linear-gradient(#FFCE00, #DFAE00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFCE00, #DFAE00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFCE00, #DFAE00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFCE00, #DFAE00); /* Standard syntax */
+  border: 1px solid #CB0000;
+}
+
+.nameBar {
+	
+  border: 1px solid black; 	
+  background-color: #CBCBCB;
+  background: -webkit-linear-gradient(#CBCBCB, #ABABAB); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CBCBCB, #ABABAB); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CBCBCB, #ABABAB); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CBCBCB, #ABABAB); /* Standard syntax */
+}
+
+.nameBarActive {
+	
+  border: 1px solid black; 	
+  background-color: #FFCE00;
+  background: -webkit-linear-gradient(#FFCE00, #DFAE00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFCE00, #DFAE00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFCE00, #DFAE00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFCE00, #DFAE00); /* Standard syntax */
+}
+
+.directionBox {
+	
+  background-color: #4377A9;
+  background: -webkit-linear-gradient(#4377A9, #235789); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#4377A9, #235789); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#4377A9, #235789); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#4377A9, #235789); /* Standard syntax */	
+}
+
+.directionLabel {
+	
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.nameLabel {
+	
+  color: #000000;
+  text-align: left;
+}
+
+.biddingBox {
+	
+  border: 1px solid black; 	
+  background-color: #CCCC9A;
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.biddingBoxPassButton {
+	
+  background-color: #BFD699;
+  background: -webkit-linear-gradient(#BFD699, #9FB679); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#BFD699, #9FB679); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#BFD699, #9FB679); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#BFD699, #9FB679); /* Standard syntax */
+  color: #000000;
+  margin: 0px;
+  padding: 0px;	
+}
+
+.biddingBoxOKButton {
+	
+  background-color: #FFCE00;
+  background: -webkit-linear-gradient(#FFCE00, #DFAE00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFCE00, #DFAE00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFCE00, #DFAE00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFCE00, #DFAE00); /* Standard syntax */
+  color: #000000;
+  margin: 0px;
+  padding: 0px;	
+}
+
+.biddingBoxAlertButton {
+	
+  background-color: #99CCCC;
+  background: -webkit-linear-gradient(#99CCCC, #79ACAC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#99CCCC, #79ACAC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#99CCCC, #79ACAC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#99CCCC, #79ACAC); /* Standard syntax */
+  color: #000000;
+  margin: 0px;
+  padding: 0px;	
+}
+
+.biddingBoxDblButton {
+	
+  background-color: #CB0000;
+  background: -webkit-linear-gradient(#CB0000, #AB0000); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CB0000, #AB0000); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CB0000, #AB0000); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CB0000, #AB0000); /* Standard syntax */
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;		  
+}
+
+.biddingBoxRdblButton {
+	
+  background-color: #4377A9;
+  background: -webkit-linear-gradient(#4377A9, #235789); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#4377A9, #235789); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#4377A9, #235789); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#4377A9, ##235789); /* Standard syntax */
+  color: #FFFFFF;	
+  margin: 0px;
+  padding: 0px;	
+}
+
+.biddingBoxLevelButton {
+	
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #DFDFDF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #DFDFDF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #DFDFDF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #DFDFDF); /* Standard syntax */
+  color: #000000;	
+  margin: 0px;
+  padding: 0px;	
+}
+
+.biddingBoxLevelButtonActive {
+	
+  background-color: #FFCE00;
+  background: -webkit-linear-gradient(#FFCE00, #DFAE00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFCE00, #DFAE00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFCE00, #DFAE00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFCE00, #DFAE00); /* Standard syntax */
+  color: #000000;	
+  margin: 0px;
+  padding: 0px;	
+}
+
+.biddingBoxStrainButton {
+	
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #DFDFDF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #DFDFDF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #DFDFDF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #DFDFDF); /* Standard syntax */
+  color: #000000;	
+  position: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+.callExplainPanel {
+	
+  border: 1px solid black; 	
+  background-color: #CCCC9A;
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.reviewBiddingPanel {
+	
+  border: none;
+  background-color: transparent;
+}
+
+.lastTrickPanel {
+	
+  border: 1px solid black; 	
+  background-color: #CCCC9A;  
+   background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.contractPanel {
+	
+  background-color: #99CCCC;
+  background: -webkit-linear-gradient(#99CCCC, #79ACAC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#99CCCC, #79ACAC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#99CCCC, #79ACAC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#99CCCC, #79ACAC); /* Standard syntax */
+  border: 1px solid black;
+}
+
+.boardNumberPanel {
+	
+  background-color: #99CCCC;
+  border: 1px solid black;
+}
+
+.scorePanel {
+	
+  background-color: #99CCCC;
+  border: 1px solid black;
+}
+
+.scorePanelTop {
+	
+  border-bottom: 1px solid black;
+  background-color: #FFFFFF;
+  background: -webkit-linear-gradient(#FFFFFF, #CFCFCF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #CFCFCF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #CFCFCF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFFFFF, #CFCFCF); /* Standard syntax */	
+}
+
+.dealEndPanel {
+	
+  background-color: #FFCE00;
+  background: -webkit-linear-gradient(#FFCE00, #DFAE00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFCE00, #DFAE00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFCE00, #DFAE00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFCE00, #DFAE00); /* Standard syntax */
+}
+
+.claimDialogTricksButton {
+	
+  background-color: #99CCCC;
+  background: -webkit-linear-gradient(#99CCCC, #79ACAC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#99CCCC, #79ACAC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#99CCCC, #79ACAC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#99CCCC, #79ACAC); /* Standard syntax */
+  color: #000000;	
+  margin: 0px;
+  padding: 0px;	
+}
+
+.votePanel {
+
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;	
+  background-color: #CCCC9A;  
+  background: -webkit-linear-gradient(#CCCC9A, #ACAC7A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#CCCC9A, #ACAC7A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#CCCC9A, #ACAC7A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#CCCC9A, #ACAC7A); /* Standard syntax */
+}
+
+.votePanelButton {
+	
+  background-color: #99CCCC;
+  background: -webkit-linear-gradient(#99CCCC, #79ACAC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#99CCCC, #79ACAC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#99CCCC, #79ACAC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#99CCCC, #79ACAC); /* Standard syntax */
+  color: #000000;
+  margin: 0px;
+  padding: 0px;	
+}
+
+.claimDialogTricksButtonActive {
+	
+  background-color: #FFCE00;
+  background: -webkit-linear-gradient(#FFCE00, #DFAE00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFCE00, #DFAE00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFCE00, #DFAE00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFCE00, #DFAE00); /* Standard syntax */
+  color: #000000;	
+  margin: 0px;
+  padding: 0px;	
+}
+
+body {
+	
+	margin: 0px !important;
+	padding: 0px;
+	left-margin: 0px;
+	padding-left: 0px;	
+	overflow-x: hidden;
+  	overflow-y: hidden; 
+}
+
+div.BBO_mainDivStyle {
+	
+	position: absolute;
+	background: #000000;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+  	overflow-y: hidden; 
+  	color: #000000;
+  	
+  	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+button:disabled {
+	
+	color: #808080;
+}

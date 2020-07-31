@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  overflow: hidden;
+  overflow-x: hidden;
+  xposition:fixed !important;
+  xposition: absolute;
+  xtop: 0px;
+  xright: 0px;
+  xbottom: 0px;
+  xleft: 0px;
+  height:100%;
+}
+
+#framecontent{
+  position: absolute;
+  border: none;
+  uday_border-top: 2px solid black;
+  bottom: 0px; 
+  right: 0px;
+  padding: 0px;
+  padding-top: 1px;
+  overflow: hidden; 
+  background-color: #f0eed0;
+  color: black;
+  z-index:1;
+}
+
+#hidelbbtn {
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#FFCE00;
+}
+
+#hidelbbtn:hover {
+  float:right;
+  display:inline-block;
+  padding:2px 5px;
+  background:#FFFFFF;
+}
+
+#maincontent{
+  uday_position: fixed;
+  position: absolute;
+  overflow: auto; 
+  background: #fff;
+}
+
+#bbo_arcade1_ad {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: none;
+  overflow: hidden;
+  padding:0;
+  height: 100%;
+  width:100%;
+}
+/* @media (max-width: 428px) { */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+
+  #bbo_arcade1_ad {
+    /* width:375px; */
+  }
+}
+#playercount {
+  uday_position: fixed;
+  font-size: 1.1em;
+  margin: 10px;
+  margin-top: 0px;
+  margin-left:10px;
+  bottom: 5px;
+  right: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+#tdhead {
+  font-size: 1.3em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#lbtable {
+  left: 200px;
+  border: none;
+  border-spacing: 0px;
+  display: table;
+  width: 95%;
+  font-size: 1em;
+  margin-top: 0px;
+}
+
+#gobutton {
+  display: inline;
+  color: white;
+  background-color: #38648d;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  /* border:2px solid #ffffff  */
+}
+
+#lbcontainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.leaderboard {
+  color: black;
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+
+#username {
+  display: inline;
+  color: black;
+  font-size: 1em;
+  background-color: white;
+}
+
+#dialog {
+  padding: 0px;
+  overflow: none;
+  display: none;
+}
+
+#playername {
+  padding-left: 10px;
+  /* padding-top: 5px; */
+  display:inline-block;
+}
+
+
+.item.tdhighlight {
+  font-weight: bold;
+  color: black;
+  font-size: 1.0em;
+
+}
+
+.item {
+  padding-left: 10px;
+  font-size: 1.3em;
+  color: #545454;
+  white-space: nowrap;
+}
+
+.main { width: 100%; }
+
